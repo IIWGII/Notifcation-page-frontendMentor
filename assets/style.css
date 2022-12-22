@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    background-color: hsl(210, 60%, 98%);
+    display: grid;
+    justify-content: center;
+}
+
+* {
+    box-sizing: initial;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    width : 90%;
+    max-width: 675px;
+    text-align: left;
+    background-color: white;
+    padding: 25px;
+    border-style: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+a {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+.Avatar-name {
+    color: hsl(224, 21%, 14%);
+}
+
+.notif-box {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.avatar-img {
+    height: 40px;
+    width: auto;
+    padding: auto 0;
+    margin: 5px 10px;
+
+}
+.content {
+    flex-grow: 1;
+}
+.content p {
+    color: hsl(219, 12%, 42%);
+}
+.time {
+    color: hsl(219, 14%, 63%);
+    font-size: 14px;
+}
+.head {
+    width: 98%;
+    margin: auto 10.250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.head h2 {
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.head h2 span {
+    font-size: 16px;
+    padding: 0px 10px;
+    border-style: none !important;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+}
+.head .read {
+    text-align: right;
+    margin-right: 0;
+    color: hsl(219, 12%, 42%);
+    font-size: 15px;
+    font-weight: 400;
+}
+.head .read:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.unread {
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 5px;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    width: fit-content;
+}
+.dot-unread {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: hsl(1, 90%, 64%);
+    opacity: 1;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.chess,
+a:hover {
+    color: hsl(219, 85%, 26%);
+}
+.txt {
+    display: block;
+    padding: 10px;
+    margin: 10px 20px 10px 0;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: hsl(205, 33%, 90%);
+    color: hsl(219, 14%, 63%);
+    font-weight: 400;
+    font-size: 16px;
+}
+.txt:hover{
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
